@@ -19,7 +19,7 @@ pipeline{
                     '''
                 }
             }
-            stage('test webhook'){
+            stage('test webhook github '){
                 agent {
                     docker{
                         image 'node:18-alpine'
