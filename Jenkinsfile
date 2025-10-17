@@ -19,7 +19,7 @@ pipeline{
                     '''
                 }
             }
-            stage('test'){
+            stage('test från ngr'){
                 agent {
                     docker{
                         image 'node:18-alpine'
