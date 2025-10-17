@@ -19,7 +19,7 @@ pipeline{
                     '''
                 }
             }
-            stage('test från ngr'){
+            stage('test webhook'){
                 agent {
                     docker{
                         image 'node:18-alpine'
